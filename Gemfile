@@ -13,6 +13,10 @@ group :development, :test do
   gem 'shotgun'
 end
 
+group :test do
+  gem 'capybara', '1.1.2'
+end
+
 group :production do
   gem 'pg', '0.12.2'
 end
