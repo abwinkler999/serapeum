@@ -1,4 +1,4 @@
 class Genre < ActiveRecord::Base
   # attr_accessible :title, :body
-  has_many :books
+  has_and_belongs_to_many :books
 end
