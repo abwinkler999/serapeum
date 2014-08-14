@@ -21,3 +21,12 @@
     </div><!-- /input-group -->
   </div><!-- /.col-lg-6 -->
 </div><!-- /.row -->
+
+# needs to become a partial
+<div id="random_book">
+<% random_book = Book.random %>
+<p><h3>Staff pick:</h3>  <em><%= random_book.title %></em>, by <%=random_book.author.first_name %> <%=random_book.author.last_name%></p>
+<% random_book_genres = random_book.genres %>
+<% random_book_genres.each { |x| %>
+<span class="label label-primary"><%= x.name %></span>
+<% } %>
