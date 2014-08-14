@@ -1,1 +1,1 @@
-== SERAPEUM
+Serapeum is a lightweight library web application developed in Rails, suitable for cataloguing a personal or club library.
