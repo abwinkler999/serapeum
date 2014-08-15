@@ -1,1 +1,7 @@
-== SERAPEUM
+Serapeum is a lightweight library web application developed in Rails, suitable for cataloguing a personal or club library.
+
+Features:  
+  * every book can be flagged with one or more genres
+  * every book can be flagged with one or more descriptive elements
+  (hardcover, oversized, fragile, etc.)
+  * search by author, title, or genre
