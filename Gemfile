@@ -19,7 +19,8 @@ group :development, :test do
 end
 
 group :test do
-  gem 'capybara', '1.1.2'
+  gem 'capybara', '~> 2.2.0'
+  gem 'selenium-webdriver'
 end
 
 group :production do
@@ -39,6 +40,9 @@ group :assets do
 end
 
 gem 'jquery-rails'
+
+# relating to Rails 4 update
+gem 'protected_attributes'
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
